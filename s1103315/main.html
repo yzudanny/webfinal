@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8">
+      <title>Registration</title>
+      <link rel="stylesheet"href="homework2.css"/>
+  </head>
+  <body>
+  <h1>Personal information</h1>
+  <form action="test.php" method="post">
+  <div class="container">
+    <p>Please fill in this form to register</p>
+    
+    <label for="id"><b>Student ID</b></label>
+    <input type="text" placeholder="s#######" name="id" id="id" 
+     pattern="\d{7}" required>
+
+    <label for="name"><b>NAME</b></label>
+    <input type="name" placeholder="Enter Name" name="name" id="name"pattern="[a-zA-Z]{1,}" required>
+  </div>
+  <div>
+    <label for="mail"><b>Email</b></label>
+    <input type="email" placeholder="(123@mail.com.tw)" name="mail" id="mail" required>
+    <label for="pnumber"> <b>Phone number</b></label>
+    <input type="pnumber" placeholder="####-###-###" name="pnumber" id="pnumber" 
+    pattern="09\d{2}\-?\d{3}\-?\d{3}" required>
+  </div>
+  
+  <div>
+    <strong>Department</strong>
+    <label>資工
+    <input name="department"type="radio"value="資工" checked></label>
+    <label>資管
+    <input name="department"type="radio"value="資管"></label>
+    <label>資傳
+    <input name="department"type="radio"value="資傳"></label>
+    <label>資英
+    <input name="department"type="radio"value="資英"></label>
+  </div>
+  <button type="submit" class="registerbtn">Register</button>
+</form>
+  </body>
+</html>

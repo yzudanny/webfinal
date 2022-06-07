@@ -1,0 +1,35 @@
+body{
+  font-family:Sans-Seriferi;
+  font-size: 30px;
+  background-color:#303030;
+  color:white;
+}
+.content{
+  background-color:#BABABA;
+  width:  500px;
+  height: 300px;
+  padding:40px;
+  position:absolute;
+  top:30%;
+  left:30%;
+  transform: translate(-30%.-30%);
+  color:white;
+}
+.hello{
+  font-size: 15px;
+  font-family:Comic Sans MS;
+  background-color:#303030 ;
+  position:absolute;
+  top:90%;
+  left:85%;
+  color:white;
+}
+.apple{
+  font-size: 15px;
+  background-color:#BABABA;
+  font-family:Comic Sans MS;
+  position:absolute;
+  top:3%;
+  left:10%;
+  color:white;
+}
